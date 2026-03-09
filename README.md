@@ -1,14 +1,14 @@
 # Al Baik Website – UX Case Study
 
 ## Overview
-This case study evaluates the usability and interaction design of the Al Baik official website from the perspective of a regular desktop user. The analysis applies Human-Computer Interaction principles studied during my BSc (Hons) Computer Science programme at the University of Kent.
+This case study evaluates the usability and interaction design of the Al Baik official website from the perspective of a regular desktop user. The analysis applies Human–Computer Interaction (HCI) principles studied during my BSc (Hons) Computer Science programme at the University of Kent.
 
 The goal is to identify strengths, weaknesses, and design trade-offs in the interface, going beyond surface-level heuristic evaluation.
 
 ---
 
 ## Context & Personal Use
-I regularly use the Al Baik website to browse the menu and explore brand information. This familiarity allows for a reflective evaluation based on repeated interaction rather than a single visit.
+I regularly use the Al Baik website to browse the menu and explore brand-related information.
 
 ---
 
@@ -19,9 +19,25 @@ The layout follows a vertically structured scroll model common in modern commerc
 
 ---
 
+## Interface Snapshots
+
+Below are selected screenshots of the desktop interface used to support the evaluation.
+
+### Homepage & Navigation
+<img width="1440" height="715" alt="Al baik homepage" src="https://github.com/user-attachments/assets/6dad7e19-6bf7-4d15-b221-e4d221e26000" />
+
+*Figure 1: Homepage banner and navigation hover feedback demonstrating strong brand emphasis.*
+
+### Menu Page Structure
+![Al baik Menu Page](https://github.com/user-attachments/assets/b310fdf8-f77f-46fc-9808-ba2991bce881)
+
+*Figure 2: Image-dominant grid layout prioritising visual appeal over dense informational display.*
+
+---
+
 ## Heuristic Evaluation
 
-### Visibility of System Status
+### **Visibility of System Status**
 
 The Al Baik website provides basic system feedback through hover state changes in the navigation bar. When a user hovers over interactive elements such as "Menu", the colour shift acts as a visual indicator of interactivity. This aligns with web conventions and reduces uncertainty regarding clickability.
 
@@ -29,7 +45,7 @@ However, when transitioning between sections (e.g., from "Menu" to "Our Story"),
 
 From a user experience perspective, even minor delays without feedback can reduce perceived responsiveness. Implementing a subtle loading animation or progress indicator would improve clarity and reinforce the principle of visibility of system status.
 
-### Aesthetic & Minimalist Design
+### **Aesthetic & Minimalist Design**
 
 The Al Baik website strongly reflects the brand’s visual identity through its dominant red and white colour palette. The consistent use of these colours reinforces brand recognition and creates immediate visual coherence across pages.
 
@@ -41,7 +57,7 @@ Despite this, the layout maintains strong visual hierarchy. Headings are clearly
 
 Overall, the design successfully balances brand expression with usability, though minor adjustments to information density could improve efficiency for repeat users.
 
-### Affordances & Signifiers
+### **Affordances & Signifiers**
 
 Affordances refer to the perceived possibilities for action, while signifiers communicate where interaction is possible. On the Al Baik website, primary navigation items in the top bar act as clear signifiers due to their placement, spacing, and alignment with standard web conventions.
 
@@ -53,7 +69,7 @@ The use of the brand’s red colour for interactive highlights is effective, as 
 
 Overall, the interface follows standard web affordance patterns, but there are opportunities to strengthen signifiers in visually dense sections.
 
-### Micro-Interactions
+### **Micro-Interactions**
 
 Micro-interactions are small, contained interface responses that occur during user interaction, such as hover animations, dropdown transitions, and subtle state changes. Although often overlooked, they significantly influence perceived smoothness and professionalism.
 
@@ -65,7 +81,7 @@ However, transitions between full pages occur without noticeable animation or tr
 
 From a user experience perspective, micro-interactions contribute to emotional quality. The current implementation is functional and efficient, but enhanced transitional continuity could elevate the overall experience from usable to refined.
 
-### Design Trade-offs
+### **Design Trade-offs**
 
 Every interface design involves trade-offs between competing priorities. In the case of the Al Baik website, a primary trade-off exists between brand expression and interaction efficiency.
 
@@ -103,4 +119,4 @@ Through this process, I have developed a more structured approach to UX evaluati
 
 The analysis demonstrates a shift from descriptive evaluation toward structured, principle-based critique grounded in HCI theory.
 
-This reflection demonstrates growth in applying Human-Computer Interaction theory to real-world interfaces in a more analytical and professional manner.
+This reflection demonstrates growth in applying Human–Computer Interaction theory to real-world interfaces through a more structured and analytical evaluation process.
